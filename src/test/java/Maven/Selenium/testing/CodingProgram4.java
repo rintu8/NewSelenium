@@ -18,6 +18,7 @@ public class CodingProgram4 {
 			temp = arr[i];
 			arr[i]=arr[j];
 			arr[j]=temp;
+			System.out.println(arr[i]);
 			j--;
 		}
 

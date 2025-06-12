@@ -8,6 +8,8 @@ public class CodingProgram3 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
+		//Program to get max character repeated
+		
 		String str = "laptop";
 		int count = 1;
 
