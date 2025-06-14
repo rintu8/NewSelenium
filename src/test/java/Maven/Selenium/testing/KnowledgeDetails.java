@@ -30,6 +30,12 @@ public class KnowledgeDetails {
 	 * 
 	 * 
 	 * ======================================================== */
+		
+		//Jenkins : Can refer video : https://www.youtube.com/watch?v=lPxrPqSyCo8 and 
+		//https://www.youtube.com/watch?v=rb5OL-QQPw4&t=623s
+		
+		//commant to launch jenkins
+		//java -jar C:\Users\rintu.george\Downloads\jenkins.war --enable-future-java
 	
 	
 	

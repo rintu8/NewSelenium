@@ -8,7 +8,7 @@ public class CodingProgram3 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		//Program to get max character repeated
+		//Program to find duplicare characterss
 		
 		String str = "laptop";
 		int count = 1;
@@ -43,6 +43,15 @@ public class CodingProgram3 {
  	   }
     	 
        }
+// 
+// Note : in addition if i want to remove the duplicates, i can use below code that i wrote
+// 
+// else {
+//		
+//		map.put(arr1[i], map.get(arr1[i]+1));
+//		map.remove(arr1[i], map);
+//	}
+ 
 
 	}
 
