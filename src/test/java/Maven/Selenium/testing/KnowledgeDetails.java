@@ -37,6 +37,13 @@ public class KnowledgeDetails {
 		//commant to launch jenkins
 		//java -jar C:\Users\rintu.george\Downloads\jenkins.war --enable-future-java
 	
+		
+		
+		//=======================================================
+		
+		//while loop
+		
+		//while , do while , for loop , enhanced loop
 	
 	
 }
