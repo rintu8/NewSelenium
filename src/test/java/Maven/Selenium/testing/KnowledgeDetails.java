@@ -4,6 +4,14 @@ public class KnowledgeDetails {
 	
 	
 	public static void main(String[] args) {
+		
+		
+		//Important youtube links
+	//	1. https://www.youtube.com/watch?v=rb5OL-QQPw4&t=623s : Selenium + Jenkins + GIT Integration : Run your Test 
+		//Cases from GIT Hub using Jenkins
+		
+		// 2. https://www.youtube.com/watch?v=LxJzeiTQGoE : Page Object Model (POM) 
+		//Design With Selenium - Part -2
 	
 	
 	//To explain POM, i have created a package "Pages" and "test" under src/test/java.In "Pages, 
