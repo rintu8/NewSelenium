@@ -6,6 +6,11 @@ public class KnowledgeDetails {
 	public static void main(String[] args) {
 		
 		
+		//Important commands:
+//		command for launchuing jenkins
+//		java -jar C:\Users\rintu.george\Downloads\jenkins.war --enable-future-java
+//		
+		
 		//Important youtube links
 	//	1. https://www.youtube.com/watch?v=rb5OL-QQPw4&t=623s : Selenium + Jenkins + GIT Integration : Run your Test 
 		//Cases from GIT Hub using Jenkins

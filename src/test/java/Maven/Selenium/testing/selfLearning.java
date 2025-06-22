@@ -10,41 +10,47 @@ public class selfLearning {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
+
+		//Program to find duplicare characterss
 		
-String str1 = "laptop";
-
-
-
-
-
-int count =1;
-
-char[] arr1 = str1.toCharArray();
-
-Map<Character,Integer> map = new HashMap<Character,Integer>();
-
-for(int i =0;i<arr1.length;i++) {
-	
-	
-	if(!map.containsKey(arr1[i])) {
+		String str = "laptop";
+		int count=1;
 		
-		map.put(arr1[i], count);
+		char []arr = str.toCharArray();
 		
-	}
-	else {
+//		for(int i=0;i<arr.length;i++) {
+//			System.out.println(arr[i]);
+//		}
 		
-		map.put(arr1[i], map.get(arr1[i]+1));
-		map.remove(arr1[i], map);
-	}
+		
+		Map<Character,Integer> map = new HashMap<Character,Integer>();
+		
+		for(int i=0;i<arr.length;i++) {
+			
+			
+			if(!map.containsKey(arr[i])) {
+				
+				map.put(arr[i],count );
+			}
+			else {
+				
+				map.put(arr[i], count+1);
+			}
+		}
+		
+		
+	for(Character key: map.keySet()) {
+			
+if(map.get(key)>1) {
+			
+				System.out.println(key + " The duplicate characters are " +map.get(key));
+			
 }
-
-for(Character x : map.keySet()) {
-	
-		
-		System.out.println(x +" :"  +map.get(x));
-	
-}
-
+			
+			
+		}
 	}
-
+	
+	
+	
 }

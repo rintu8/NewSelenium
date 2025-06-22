@@ -3,6 +3,9 @@ package Maven.Selenium.testing;
 import java.util.HashMap;
 import java.util.Map;
 
+
+//https://www.youtube.com/watch?v=yaH27KGflTg&list=PLMxpKvJf0K0QV8YSVDQJ85xN3NA9cqM0o&index=6
+
 public class CodingProgram3 {
 
 	public static void main(String[] args) {
@@ -27,7 +30,7 @@ public class CodingProgram3 {
     	   
     	   else {
     		   
-    		   map.put(arr[i], map.get(arr[i]+1));
+    		   map.put(arr[i], count+1);
     	   }
     	   
        }
@@ -37,7 +40,7 @@ public class CodingProgram3 {
 	 if(map.get(key)>1) {
 	   	   
 		 
-		 System.out.println(key + ":" +map.get(key));
+		 System.out.println(key + " has been repeated " +map.get(key) +" times");
 	   	  
 	   	   
  	   }
