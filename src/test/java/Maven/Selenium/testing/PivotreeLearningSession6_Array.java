@@ -3,6 +3,14 @@ package Maven.Selenium.testing;
 import java.util.Scanner;
 
 public class PivotreeLearningSession6_Array {
+	
+	
+//	"java_S6A1_findTheLargestNumber-
+//
+//	You are building a Sales Tracking System for a store. The store records the sales of each day in a week (7 days), and the manager wants to find out which day had the highest sales.
+//	write program with using array
+//
+//	"
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
