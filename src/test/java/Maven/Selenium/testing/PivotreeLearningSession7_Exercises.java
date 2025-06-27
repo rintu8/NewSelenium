@@ -214,6 +214,47 @@ for(int i=0;i<m.length-1;i++) {
 
 	System.out.println("The sorted array for assigment 1 is : " +Arrays.toString(m));
 	
+	
+	//===============================================================
+	
+	
+	
+	
+	
+	//Assignment 2: Find the missing number in array.This array
+	//Does not have duplicates and the values should be in a range
+	
+	int arr[] = {1,2,4,5};
+	
+	int sum1 = 0;
+	int sum2 = 0;
+	
+	for(int i=0;i<arr.length;i++) {
+		
+		sum1=sum1+arr[i];
+		
+	}
+	
+	System.out.println("Actual count is : "+sum1);
+	
+	
+	
+	
+	for(int i=1;i<=5;i++) {
+		
+		sum2=sum2+i;
+	}
+	
+	System.out.println("Present count is : "+sum2);
+	
+	int missingNumber = sum2-sum1;
+	
+	System.out.println("The missing number is : " +missingNumber);
+	
+	//Also adding that i have written a seperate program 
+	//"CodingPrigram8_MissingNumberArray" for this assignment
+	
+	
 	}//This is closing bracket for public static void main
 	
 	
